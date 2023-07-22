@@ -12,6 +12,10 @@ void toantu::nhap(){
 	cin>>ts;
 	cout <<" nhap mau so ";
 	cin>>ms; 
+	if(ms==0){
+		cout << " mau so khong hơp le << endl; 
+		cout << " nhap lai mau so ";
+		cin>>ms;
 } 
 void toantu::xuat() {
 	cout << ts << "/"<< ms;
